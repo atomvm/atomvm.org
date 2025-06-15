@@ -79,6 +79,10 @@ keep_files: [CNAME, .git, .nojekyll, doc]
 soopr: false
 theme_config:
   appearance: dark
+  appearance_toggle: true
+  show_navbar: true
+  show_copyright: true
+  show_projects: true
   home:
     title_projects: Getting Started
   show_blog: false
