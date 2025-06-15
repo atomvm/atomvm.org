@@ -39,10 +39,10 @@ markdown: kramdown
 
 custom_favicon: "assets/images/favicon/favicon.ico"
 
-# Build settings
-theme: moonwalk
+remote_theme: "abhinavs/moonwalk"
 plugins:
-  - jekyll-feed
+- jekyll-remote-theme
+- jekyll-feed
 
 keep_files: [CNAME, .git, .nojekyll, doc]
 
