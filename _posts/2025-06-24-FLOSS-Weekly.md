@@ -12,4 +12,4 @@ This is an opportunity to hear from two of the core contributors about what make
 
 Tune in live or catch the recording later — and spread the word! 💡
 
-🔗 https://youtube.com/live/oANM5wZZ91E?feature=share
+🔗 [https://youtube.com/live/oANM5wZZ91E?feature=share](https://youtube.com/live/oANM5wZZ91E?feature=share)
