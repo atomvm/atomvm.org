@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Unveiling Popcorn at ElixirConf EU 2025 Keynote: New Horizons for Client-Side Elixir
+title: "Unveiling Popcorn at ElixirConf EU 2025 Keynote: New Horizons for Client-Side Elixir"
+author: The AtomVM Team
 excerpt_separator: <!--more-->
 ---
 # 2025/05/15 Unveiling Popcorn at ElixirConf EU 2025 Keynote: New Horizons for Client-Side Elixir
@@ -16,3 +17,5 @@ This keynote not only delved into the advancements of AtomVM but also showcased 
 Find the Popcorn library on GitHub: https://github.com/software-mansion/popcorn
 
 Stay tuned for more updates as Popcorn continues to evolve!
+
+_The AtomVM team_

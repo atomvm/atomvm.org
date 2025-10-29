@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Next Week: AtomVM Takes the Stage at CodeBEAM Berlin 2025"
-date: 2025-10-29
+author: The AtomVM Team
+excerpt_separator: <!--more-->
 ---
 
-# Next Week: AtomVM Takes the Stage at CodeBEAM Berlin 2025
+# 2025-10-29 Next Week: AtomVM Takes the Stage at CodeBEAM Berlin 2025
 
 We're excited to announce that AtomVM will be featured in two compelling talks at CodeBEAM Berlin 2025 next week! Join us to learn about the latest developments in running BEAM languages on microcontrollers and beyond.
+
+<!--more-->
 
 ## Paul Guyot - Adding JIT to AtomVM
 **November 5th, 2025**
@@ -26,10 +29,10 @@ We're excited to announce that AtomVM will be featured in two compelling talks a
 
 For those unable to attend CodeBEAM Berlin, we encourage you to check out these excellent recent talks from previous conferences to learn more about AtomVM:
 
-- [La Machine: The Useless Box reloaded with Erlang and AtomVM - Paul Guyot | Code BEAM Europe 2024](https://www.youtube.com/watch?v=o-uCKdHz-wM)
-- [Microcontrollers with Gleam - Ray De Los Santos | Code BEAM America 2025](https://www.youtube.com/watch?v=-jd1lRQ4LZg)
-- [Keynote: The AtomVM and New Horizons for Elixir - Davide Bettio & Mateusz Front | ElixirConf EU 2025](https://www.youtube.com/watch?v=ep--rQO1FRI)
+- [La Machine: The Useless Box reloaded with Erlang and AtomVM](https://www.youtube.com/watch?v=o-uCKdHz-wM) - Paul Guyot at Code BEAM Europe 2024
+- [Microcontrollers with Gleam](https://www.youtube.com/watch?v=-jd1lRQ4LZg) - Ray De Los Santos at Code BEAM America 2025
+- [Keynote: The AtomVM and New Horizons for Elixir](https://www.youtube.com/watch?v=ep--rQO1FRI) - Davide Bettio & Mateusz Front at ElixirConf EU 2025
 
 We look forward to seeing you at CodeBEAM Berlin 2025 or connecting with you through our community channels. These talks represent the cutting edge of BEAM technology on embedded systems, and we're thrilled to share our progress with the broader BEAM community.
 
-The AtomVM team
+_The AtomVM team_
