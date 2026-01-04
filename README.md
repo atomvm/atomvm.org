@@ -11,6 +11,24 @@ Change your working directory to the directory containing this README:
 
     cd <path-to-this-directory>
 
+Create a `Gemfile` with the following content:
+
+```ruby
+source "https://rubygems.org"
+
+gem "github-pages", group: :jekyll_plugins
+gem "webrick", "~> 1.7"  # Required for Ruby 3.0+
+```
+
+Create a `_config_dev.yml` file for local development:
+
+```yaml
+# Local development overrides
+host: "127.0.0.1"
+port: 4000
+url: "http://localhost:4000"
+```
+
 [Optional] We recommend installing all the needed Ruby gems locally (by convention, under `vendor/bundle`):
 
     bundle config set --local path 'vendor/bundle'
@@ -19,9 +37,9 @@ Install all the needed gems.  This may take some time to complete.  Be patient.
 
     bundle install
 
-Serve up your site!
+Serve up your site locally:
 
-    bundle exec jekyll serve [--host <host>] [--port <port>]
+    bundle exec jekyll serve --host 127.0.0.1
 
 or build the website:
 
