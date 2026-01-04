@@ -1,10 +1,7 @@
 ---
 layout: post
 title: "Nix Flake Setup for ESP32 Development with AtomVM"
-permalink: /tutorials/nix-flake-esp32/
 ---
-
-# Nix Flake Setup for ESP32 Development with AtomVM
 
 This tutorial shows you how to set up a reproducible development environment for ESP32 development with AtomVM using Nix Flakes. This approach ensures that all developers on your team have identical development environments, regardless of their host operating system.
 
