@@ -36,6 +36,9 @@ Create a `flake.nix` file in your AtomVM project directory:
   outputs =
     { nixpkgs, nixpkgs-unstable, ... }:
     let
+      # Configurable AtomVM tag/branch for documentation dependencies
+      atomvmTag = "main"; # Change to "release-0.6" or other tag as needed
+
       supportedSystems = [
         "x86_64-linux"
         "aarch64-linux"
@@ -105,6 +108,7 @@ Create a `flake.nix` file in your AtomVM project directory:
                 zlib
                 ninja
                 doxygen
+                graphviz
               ]
               ++ [
                 pkgs-stable.cmake
@@ -149,6 +153,11 @@ Create a `flake.nix` file in your AtomVM project directory:
                 echo "ESP-IDF environment activated"
                 echo "You can now build AtomVM for ESP32!"
               fi
+
+              # Install AtomVM doc requirements into ESP-IDF Python environment
+              REQUIREMENTS_URL="https://raw.githubusercontent.com/atomvm/AtomVM/${atomvmTag}/doc/requirements.txt"
+              echo "Installing AtomVM documentation dependencies (tag: ${atomvmTag})..."
+              curl -sL "$REQUIREMENTS_URL" | pip install -q -r /dev/stdin
             '';
           };
         }
