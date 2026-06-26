@@ -54,7 +54,6 @@ for `atomvm_neopixel`)
 
 ## Libraries
 * [`avm_scene`](https://github.com/atomvm/avm_scene) An OTP display orchestration application
-* [`mjson`](https://github.com/mbj4668/mjson) Purerlang JSON encoder and decoder designed for
-AtomVM
+* [`amqtt_client`](https://github.com/atomvm/amqtt/tree/main/amqtt_client) An MQTT client library optimized for AtomVM
 
 If you have an extension to AtomVM you would like listed here, please [contact](../contact) us.
