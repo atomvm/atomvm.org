@@ -1,0 +1,50 @@
+title: "AtomVM Ecosystem"
+intro: "They love AtomVM, and we love them!"
+
+categories:
+  - heading: "Commercial Products"
+    items:
+      - name: "La Machine"
+        logo: /assets/images/ecosystem/la-machine.svg
+        desc: >-
+          An artistic, hardware "Useless Box" reloaded with Erlang. Built completely offline, it
+          demonstrates AtomVM's extreme reliability, stability, and deterministic memory management
+          in a rugged standalone production environment on an ESP32-C3 chip.
+        links:
+          - { label: "GitHub", url: "https://github.com/pguyot/la_machine" }
+          - { label: "Website", url: "https://la-machine.fr/" }
+
+  - heading: "Third-Party Projects"
+    items:
+      - name: "midiMESH"
+        logo: /assets/images/ecosystem/midimesh.svg
+        desc: >-
+          Real-time network MIDI handling using Elixir on the ESP32. It routes audio and musical
+          instrument data over network protocols, leveraging AtomVM's execution model to safely
+          coordinate live hardware and network events.
+        links:
+          - { label: "GitHub", url: "https://github.com/nanassound/midimesh_esp32" }
+
+  - heading: "Strategic Ecosystem Contributors"
+    items:
+      - name: "NLnet Foundation (NGI0 Commons Fund)"
+        logo: /assets/images/ecosystem/nlnet.svg
+        logo_dark: /assets/images/ecosystem/nlnet-dark.svg
+        desc: >-
+          NLnet officially funds and hosts the "Towards AtomVM v1.0" project initiative,
+          providing strategic financial backing to expand hardware support, polish core APIs, and
+          improve runtime security on the road to a stable 1.0 release.
+        links:
+          - { label: "NLnet project", url: "https://nlnet.nl/project/AtomVM/" }
+      - name: "piyopiyo.ex"
+        logo: /assets/images/ecosystem/piyopiyo.png
+        desc: >-
+          A highly active Japanese Elixir user community based out of Nagoya. They actively
+          collaborate on real-world implementations—such as building AtomVM configurations to ingest
+          BLE data from SwitchBot hardware—and regularly host localized, hands-on developer workshops
+          to lower the barrier to entry for embedded BEAM applications.
+        links:
+          - { label: "GitHub", url: "https://github.com/piyopiyoex" }
+
+outro: >-
+  Building something with AtomVM? [Get in touch](/contact/) to be featured here.

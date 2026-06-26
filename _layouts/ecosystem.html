@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<main class="page">
+  <header class="page-header">
+    <h1>{{ page.title }}</h1>
+    {% if site.data.ecosystem.intro %}
+    <p class="page-header__intro">{{ site.data.ecosystem.intro }}</p>
+    {% endif %}
+  </header>
+
+  {% for category in site.data.ecosystem.categories %}
+  <section class="eco-section">
+    <header class="page-header">
+      <h2>{{ category.heading }}</h2>
+    </header>
+    <div class="features__grid{% if category.items.size == 1 %} features__grid--single{% endif %}">
+      {% for item in category.items %}
+        {% include ecosystem_card.html item=item %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+
+  {% if site.data.ecosystem.outro %}
+  <article class="content-card">
+    <div class="prose">{{ site.data.ecosystem.outro | markdownify }}</div>
+  </article>
+  {% endif %}
+</main>
