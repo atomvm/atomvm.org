@@ -1,0 +1,25 @@
+<article class="feature-card">
+  {% if include.item.logo %}
+  <span class="eco-card__logo">
+    <img src="{{ include.item.logo | relative_url }}" alt=""{% if include.item.logo_dark %} class="eco-card__logo-light"{% endif %}>
+    {% if include.item.logo_dark %}
+    <img src="{{ include.item.logo_dark | relative_url }}" alt="" class="eco-card__logo-dark">
+    {% endif %}
+  </span>
+  {% endif %}
+  <h3 class="feature-card__title">{{ include.item.name }}</h3>
+  <div class="feature-card__desc">{{ include.item.desc | markdownify }}</div>
+  {% if include.item.links %}
+  <div class="eco-card__links">
+    {% for link in include.item.links %}
+    <a class="eco-card__link" href="{{ link.url }}" target="_blank" rel="noopener">
+      {{ link.label }}
+      <svg viewBox="0 0 24 24" aria-hidden="true" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M7 17 17 7"/>
+        <path d="M8 7h9v9"/>
+      </svg>
+    </a>
+    {% endfor %}
+  </div>
+  {% endif %}
+</article>

@@ -5,6 +5,8 @@ navbar_entries:
     url: /news/
   - title: Extensions
     url: /extensions/
+  - title: Ecosystem
+    url: /ecosystem/
   - title: Forum
     url: https://erlangforums.com/c/erlang-platforms/atomvm-forum/76
 
@@ -64,6 +66,8 @@ footer:
           url: /sample-code/
         - title: Extensions
           url: /extensions/
+        - title: Ecosystem
+          url: /ecosystem/
         - title: Tutorials
           url: /tutorials/
   cta:
