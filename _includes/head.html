@@ -2,7 +2,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ site.description | strip_newlines }}">
+  {%- assign meta_description = page.description | normalize_whitespace %}
+  {%- if meta_description == "" and page.collection == "posts" %}
+    {%- assign meta_description = page.excerpt | strip_html | normalize_whitespace %}
+    {%- if meta_description.size > 160 %}
+      {%- assign meta_cut = meta_description | truncate: 160, "" %}
+      {%- assign meta_description = meta_cut | split: " " | pop | join: " " | default: meta_cut | append: "…" %}
+    {%- endif %}
+  {%- endif %}
+  {%- if meta_description == "" %}
+    {%- assign meta_description = site.description | normalize_whitespace %}
+  {%- endif %}
+  <meta name="description" content="{{ meta_description | escape_once }}">
   {% include custom_head.html %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

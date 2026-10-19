@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact Us
+description: "How to reach AtomVM users and developers: the AtomVM forum, community chat channels, and an email address for direct inquiries."
 permalink: /contact/
 ---
 

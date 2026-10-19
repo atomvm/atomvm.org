@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Extensions
+description: "Community-provided extensions for AtomVM, including development tools, drivers for peripherals and networking protocols, and libraries."
 permalink: /extensions/
 ---
 

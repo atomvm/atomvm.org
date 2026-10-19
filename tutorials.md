@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Tutorials
+description: "Step-by-step guides for working with AtomVM, including how to set up a reproducible ESP32 development environment with Nix Flakes."
 permalink: /tutorials/
 ---
 

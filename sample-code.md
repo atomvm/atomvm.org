@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sample Code
+description: "Annotated Erlang examples for AtomVM, from Hello World to blinking LEDs using GPIO and concurrent processes."
 permalink: /sample-code/
 ---
 
